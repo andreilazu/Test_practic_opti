@@ -11,10 +11,12 @@ cu stocare intermediară într-o bază de date SQLite.
 ## Structura proiectului
 
 ```
-├── schema.sql       # Definiția bazei de date SQLite (structură + indexuri)
-├── scraper.py       # Parsează HTML-ul și populează baza de date
-├── generator.py     # Citește din baza de date și regenerează HTML-ul
-├── requirements.txt # Dependențe Python
+├── schema.sql          # Definiția bazei de date SQLite
+├── scraper.py          # Parsează HTML-ul și populează baza de date  
+├── generator.py        # Citește din baza de date și regenerează HTML-ul
+├── requirements.txt    # Dependențe Python
+├── guide_dump.sql      # SQL dump complet — structură + date extrase
+├── playbook_ai.md      # Procesul de dezvoltare cu AI (model, prompturi, decizii)
 └── README.md
 ```
 
